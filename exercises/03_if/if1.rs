@@ -4,6 +4,10 @@
 
 
 
+fn main() {
+    // You can optionally experiment here.
+}
+
 pub fn bigger(a: i32, b: i32) -> i32 {
     // Complete this function to return the bigger number!
     // Do not use:
