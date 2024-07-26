@@ -29,6 +29,10 @@ pub fn animal_habitat(animal: &str) -> &'static str {
     habitat
 }
 
+fn main() {
+    // You can optionally experiment here.
+}
+
 #[cfg(test)]
 mod tests {
     use super::*;

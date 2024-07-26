@@ -19,6 +19,10 @@
 // Execute `rustlings hint errors2` or use the `hint` watch subcommand for a
 // hint.
 
+fn main() {
+    // You can optionally experiment here.
+}
+
 use std::num::ParseIntError;
 
 pub fn total_cost(item_quantity: &str) -> Result<i32, ParseIntError> {

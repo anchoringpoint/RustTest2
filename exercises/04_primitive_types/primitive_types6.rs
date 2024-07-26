@@ -7,6 +7,10 @@
 // for a hint.
 
 
+fn main() {
+    // You can optionally experiment here.
+}
+
 #[test]
 fn indexing_tuple() {
     let numbers = (1, 2, 3);

@@ -7,6 +7,10 @@
 // hint.
 
 
+fn main() {
+    // You can optionally experiment here.
+}
+
 struct Wrapper<T> {
     value: T,
 }

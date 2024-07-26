@@ -16,6 +16,11 @@
 // hint.
 use std::collections::HashMap;
 
+
+fn main() {
+    // You can optionally experiment here.
+}
+
 #[derive(Hash, PartialEq, Eq)]
 enum Fruit {
     Apple,

@@ -28,6 +28,10 @@ pub enum Command {
     Append(usize),
 }
 
+fn main() {
+    // You can optionally experiment here.
+}
+
 mod my_module {
     use super::Command;
 

@@ -10,6 +10,10 @@
 // hint.
 
 
+fn main() {
+    // You can optionally experiment here.
+}
+
 #[derive(Debug, PartialEq, Eq)]
 pub enum DivisionError {
     NotDivisible(NotDivisibleError),

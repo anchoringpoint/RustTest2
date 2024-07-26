@@ -19,6 +19,11 @@
 // fn calculate_price_of_apples {
 
 // Don't modify this function!
+
+fn main() {
+    // You can optionally experiment here.
+}
+
 #[test]
 fn verify_test() {
     let price1 = calculate_price_of_apples(35);

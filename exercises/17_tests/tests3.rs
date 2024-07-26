@@ -38,6 +38,7 @@ mod tests {
     #[test]
     fn negative_width() {
         let _rect = Rectangle::new(-10, 10);
+        assert_eq!(rect.width, -10); // Check width
     }
 
     // TODO: This test should check if the program panics when we try to create
@@ -45,5 +46,6 @@ mod tests {
     #[test]
     fn negative_height() {
         let _rect = Rectangle::new(10, -10);
+        assert_eq!(rect.height, -10); // Check height
     }
 }

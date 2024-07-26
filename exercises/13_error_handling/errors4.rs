@@ -14,6 +14,10 @@ enum CreationError {
     Zero,
 }
 
+fn main() {
+    // You can optionally experiment here.
+}
+
 impl PositiveNonzeroInteger {
     fn new(value: i64) -> Result<PositiveNonzeroInteger, CreationError> {
         // Hmm...? Why is this only returning an Ok value?

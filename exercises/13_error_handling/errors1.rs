@@ -9,6 +9,10 @@
 // Execute `rustlings hint errors1` or use the `hint` watch subcommand for a
 // hint.
 
+fn main() {
+    // You can optionally experiment here.
+}
+
 
 pub fn generate_nametag_text(name: String) -> Result<String,String> {
     if name.is_empty() {

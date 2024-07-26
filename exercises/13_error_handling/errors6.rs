@@ -13,6 +13,10 @@
 
 use std::num::ParseIntError;
 
+fn main() {
+    // You can optionally experiment here.
+}
+
 // This is a custom error type that we will be using in `parse_pos_nonzero()`.
 #[derive(PartialEq, Debug)]
 enum ParsePosNonzeroError {

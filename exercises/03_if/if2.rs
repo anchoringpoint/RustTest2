@@ -16,6 +16,10 @@ pub fn foo_if_fizz(fizzish: &str) -> &str {
     }
 }
 
+fn main() {
+    // You can optionally experiment here.
+}
+
 // No test changes needed!
 #[cfg(test)]
 mod tests {
@@ -23,16 +27,17 @@ mod tests {
 
     #[test]
     fn foo_for_fizz() {
-        assert_eq!(foo_if_fizz("fizz"), "foo")
+        // This means that calling `foo_if_fizz` with the argument "fizz" should return "foo".
+        assert_eq!(foo_if_fizz("fizz"), "foo");
     }
 
     #[test]
     fn bar_for_fuzz() {
-        assert_eq!(foo_if_fizz("fuzz"), "bar")
+        assert_eq!(foo_if_fizz("fuzz"), "bar");
     }
 
     #[test]
     fn default_to_baz() {
-        assert_eq!(foo_if_fizz("literally anything"), "baz")
+        assert_eq!(foo_if_fizz("literally anything"), "baz");
     }
 }

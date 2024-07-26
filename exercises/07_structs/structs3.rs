@@ -8,6 +8,10 @@
 // hint.
 
 
+fn main() {
+    // You can optionally experiment here.
+}
+
 #[derive(Debug)]
 struct Package {
     sender_country: String,

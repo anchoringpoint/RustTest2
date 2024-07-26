@@ -6,6 +6,10 @@
 // hint.
 
 
+fn main() {
+    // You can optionally experiment here.
+}
+
 #[derive(Debug)]
 struct Order {
     name: String,

@@ -5,6 +5,10 @@
 // Execute `rustlings hint structs1` or use the `hint` watch subcommand for a
 // hint.
 
+fn main() {
+    // You can optionally experiment here.
+}
+
 
 struct ColorClassicStruct {
     // TODO: Something goes here

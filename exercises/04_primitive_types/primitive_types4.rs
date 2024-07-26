@@ -6,6 +6,10 @@
 // for a hint.
 
 
+fn main() {
+    // You can optionally experiment here.
+}
+
 #[test]
 fn slice_out_of_array() {
     let a = [1, 2, 3, 4, 5];

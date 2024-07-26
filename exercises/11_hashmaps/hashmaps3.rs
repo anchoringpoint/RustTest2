@@ -17,6 +17,10 @@
 
 use std::collections::HashMap;
 
+fn main() {
+    // You can optionally experiment here.
+}
+
 // A structure to store the goal details of a team.
 struct Team {
     goals_scored: u8,

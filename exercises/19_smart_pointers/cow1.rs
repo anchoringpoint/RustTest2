@@ -12,6 +12,10 @@
 //
 // Execute `rustlings hint cow1` or use the `hint` watch subcommand for a hint.
 
+fn main() {
+    // You can optionally experiment here.
+}
+
 use std::borrow::Cow;
 
 fn abs_all<'a, 'b>(input: &'a mut Cow<'b, [i32]>) -> &'a mut Cow<'b, [i32]> {

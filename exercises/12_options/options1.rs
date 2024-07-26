@@ -4,6 +4,10 @@
 // hint.
 
 
+fn main() {
+    // You can optionally experiment here.
+}
+
 // This function returns how much icecream there is left in the fridge.
 // If it's before 10PM, there's 5 pieces left. At 10PM, someone eats them
 // all, so there'll be no more left :(

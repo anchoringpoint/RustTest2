@@ -9,6 +9,10 @@
 // Execute `rustlings hint traits2` or use the `hint` watch subcommand for a hint.
 
 
+fn main() {
+    // You can optionally experiment here.
+}
+
 trait AppendBar {
     fn append_bar(self) -> Self;
 }

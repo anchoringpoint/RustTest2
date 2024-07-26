@@ -5,6 +5,10 @@
 // Execute `rustlings hint enums3` or use the `hint` watch subcommand for a
 // hint.
 
+fn main() {
+    // You can optionally experiment here.
+}
+
 enum Message {
     // TODO: implement the message variant types based on their usage below
     Move(Point),

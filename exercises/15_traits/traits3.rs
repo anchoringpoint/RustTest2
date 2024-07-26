@@ -9,6 +9,10 @@
 // hint.
 
 
+fn main() {
+    // You can optionally experiment here.
+}
+
 
 pub trait Licensed {
         fn licensing_info(&self) -> String {

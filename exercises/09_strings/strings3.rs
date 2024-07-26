@@ -3,6 +3,10 @@
 // Execute `rustlings hint strings3` or use the `hint` watch subcommand for a
 // hint.
 
+fn main() {
+    // You can optionally experiment here.
+}
+
 
 fn trim_me(input: &str) -> String {
     // TODO: Remove whitespace from both ends of a string!
